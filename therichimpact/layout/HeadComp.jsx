@@ -5,9 +5,9 @@ const HeadComp = ({title}) => {
   return (
     <Head>
         <title>{title}</title>
-        {/* <meta name="description" content=" Decentralized Perpetual Protocol Built on Base" />
+        {/* <meta name="description" content=" Decentralized Perpetual Protocol Built on Base" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="perpetual exchange, zeit, base, dapp, zeitprotocol, zeit protocol" />
+        {/* <meta name="keywords" content="perpetual exchange, zeit, base, dapp, zeitprotocol, zeit protocol" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="zeitprotocol.xyz" />
         <meta name="twitter:title" content="Zeit Protocol" />
