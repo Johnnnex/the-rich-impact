@@ -15,7 +15,7 @@ const Header = () => {
                     <li className="">OUR TEAM</li>
                     <li className="">FAQS</li>
                 </ul>
-                <button className="text-[18px] font-[600] font-clashGrotesk w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
+                <button className="text-[15px] font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
                     WORK WITH US
                 </button>
             </nav>
