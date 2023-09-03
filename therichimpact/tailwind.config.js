@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         clashGrotesk: ["Clash Grotesk", "sans-serif"],
+        satoshi: ["Satoshi", "sans-serif"],
       },
     },
   },

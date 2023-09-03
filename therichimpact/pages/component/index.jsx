@@ -24,6 +24,9 @@ const Index = () => {
                 </div>
             </div>
         </section>
+        <section className="">
+            <h2 className="mt-[97px]">EXPERTISE</h2>
+        </section>
     </>
   )
 }
