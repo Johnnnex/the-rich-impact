@@ -24,21 +24,21 @@ const Index = () => {
                 </div>
             </div>
         </section>
-        <section className="bg-white">
-            <h2 className="mt-[97px] font-clashGrotesk text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
+        <section className="bg-white py-[97px]">
+            <h2 className="font-clashGrotesk text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
             <div className="flex w-[90%] justify-between items-center mx-auto">
-                <div className="w-[30%]">
-                    <Image alt="content-img" height={1} width={100} className="" src="/images/content.svg" />
+                <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
+                    <Image alt="content-img" height={1} width={250} className="" src="/images/content.svg" />
                     <h3 className="text-[#2D2B4A] font-clashGrotesk font-[600] text-[24px]">Content Creation</h3>
                     <p className="font-clashGrotesk text-[18px] font-[400] text-[#666481] leading-[26px]">We prioritize comprehensive content strategies focused on producing high-quality content, ensuring efficient ddistribution, and maintaining a steady flow of impactful content across socail media and long-form platforms.</p>
                 </div>
-                <div className="w-[30%]">
-                    <Image alt="soc-med-mgt-img" height={1} width={100} className="" src="/images/soc-med-mgt.svg" />
+                <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
+                    <Image alt="soc-med-mgt-img" height={1} width={250} className="" src="/images/soc-med-mgt.svg" />
                     <h3 className="text-[#2D2B4A] font-clashGrotesk font-[600] text-[24px]">Social Media Management</h3>
                     <p className="font-clashGrotesk text-[18px] font-[400] text-[#666481] leading-[26px]">Expertly handle your brand’s social media presence, amplifying your message through strategic posts, timely engagement, and data-driven growth tactics.</p>
                 </div>
-                <div className="w-[30%]">
-                    <Image alt="bd-dvpt-img" height={1} width={100} className="" src="/images/bd-dvpt.svg" />
+                <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
+                    <Image alt="bd-dvpt-img" height={1} width={200} className="w-[40%]" src="/images/bd-dvpt.svg" />
                     <h3 className="text-[#2D2B4A] font-clashGrotesk font-[600] text-[24px]">Brand Development & Storytelling</h3>
                     <p className="font-clashGrotesk text-[18px] font-[400] text-[#666481] leading-[26px]">We masterfully weave your brand’s narrative into a compelling story, fostering a solid identity that resonates with your audience. Our strategic approach ensures your brand stands out in the Web3 ecosystem.</p>
                 </div>
