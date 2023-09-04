@@ -59,6 +59,43 @@ const Index = () => {
                 </div>
             </div>
         </section>
+        {/* <section className=""> */}
+        <section className="px-4 md:px-0 pt-[113px]" id="team">
+            <div className="mx-auto w-[90%]">
+                <h2 className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F]">MEET THE TEAM</h2>
+                <div className="flex flex-wrap">
+                    <div className="w-[20rem] p-2 wow fadeIn mx-auto mb-7">
+                        <div className="rounded-[1rem] overflow-hidden">
+                        <   Image src="/Images/temitope.png" alt="team" width={300} height={1} />
+                        </div>
+                        <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Temitope Olayinka</p>
+                        <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">CoFounder & Content Manager</small>
+                    </div>
+                    <div className="w-[20rem] p-2 wow fadeIn mx-auto mb-7">
+                        <div className="rounded-[1rem] overflow-hidden">
+                            <Image src="/Images/richie.png" alt="team" width={300} height={1} />
+                        </div>
+                        <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Richard Oluseye</p>
+                        <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">CoFounder & Content Manager</small>
+                    </div>
+                    <div className="w-[20rem] wow p-2 fadeIn mx-auto mb-7">
+                        <div className="rounded-[1rem] overflow-hidden">
+                            <Image src="/Images/wale.png" alt="team" width={300} height={1} />
+                        </div>
+                        <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Olawale Abubakr</p>
+                        <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Technical Writer</small>
+                    </div>
+                    <div className="w-[20rem] wow p-2 fadeIn mx-auto mb-7">
+                        <div className="rounded-[1rem] overflow-hidden">
+                            <Image src="/Images/veetor.png" alt="team" width={300} height={1} />
+                        </div>
+                        <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Precious Ihie</p>
+                        <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Creative Lead</small>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        {/* </section> */}
     </>
   )
 }
