@@ -44,6 +44,21 @@ const Index = () => {
                 </div>
             </div>
         </section>
+        <section className="pt-[77px]">
+            <div className="w-[90%] mx-auto">
+                <h3 className=" font-clashGrotesk text-[#453F3F] font-[500] text-[48px] items-center flex">
+                    OUR PORTFOLIO
+                    <Image alt="svg-icon" height={1} width={45} className="" src="/images/arrow-up-right.svg" />
+                </h3>
+                <div className="mt-[42px] py-[20px] px-[10px] rounded-[8px] border border-[#14213D99]">
+                    <h4 className="text-[#2D2B4A] font-[600] text-[24px] font-clashGrotesk">CryptoStart</h4>
+                    <p className="text-[#666481] font-clashGrotesk text-[18px] leading-[26px] font-[400] mt-[8px] mb-[24px]">
+                        CryptoStart is a rising start in the crypto space, preparing to launch a ground breaking Defi protcol. The technical aspects are solid and advanced, but CryptoStart’s  small team lacks the content expertise to articulate their project and vision to diverse audience. 
+                    </p>
+                    <button className="uppercase text-[18px] font-satoshi font-[700] text-[#01020F99] py-[8px] px-[18px] border border-[#01020F99] rounded-[10px]">Learn more</button>
+                </div>
+            </div>
+        </section>
     </>
   )
 }
