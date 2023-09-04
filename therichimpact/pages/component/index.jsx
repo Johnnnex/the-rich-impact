@@ -59,10 +59,9 @@ const Index = () => {
                 </div>
             </div>
         </section>
-        {/* <section className=""> */}
-        <section className="px-4 md:px-0 pt-[113px]" id="team">
+        <section className="px-4 md:px-0 pt-[113px] pb-[50px]" id="team">
             <div className="mx-auto w-[90%]">
-                <h2 className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F]">MEET THE TEAM</h2>
+                <h3 className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F]">MEET THE TEAM</h3>
                 <div className="flex flex-wrap">
                     <div className="w-[20rem] p-2 wow fadeIn mx-auto mb-7">
                         <div className="rounded-[1rem] overflow-hidden">
@@ -95,7 +94,9 @@ const Index = () => {
                 </div>
             </div>
         </section> 
-        {/* </section> */}
+        <section className="bg-[#01020F] pt-[114px]">
+            <h3 className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px]">FAQS</h3>
+        </section>
     </>
   )
 }
