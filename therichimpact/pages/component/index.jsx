@@ -122,10 +122,10 @@ const Index = () => {
                 </div>
             </div>
         </section> 
-        <section className="bg-[#01020F] text-white pt-[114px]">
+        <section className="bg-[#01020F] text-white py-[114px]">
             <h3 className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px]">FAQS</h3>
             <div className="w-[60%] mx-auto font-satoshi">
-                <div className={`${one ? "active" : ""} mb-[32px]`}>
+                <div className={`${one ? "active" : ""} mb-[55px]`}>
                     <div className="flex items-center justify-between">
                         <h4 className=" text-[22px] max-w-[80%] font-[500]">What kind of content do you specialize in?</h4>
                         <button onClick={() => toggleVisibility("one")} className="">
@@ -140,7 +140,7 @@ const Index = () => {
                         </p>
                     </div>
                 </div>
-                <div className={`${two ? "active" : ""} mb-[32px]`}>
+                <div className={`${two ? "active" : ""} mb-[55px]`}>
                     <div className="flex items-center justify-between">
                         <h4 className="text-[22px] max-w-[80%] font-[500]">How do you ensure the quality of your content?</h4>
                         <button onClick={() => toggleVisibility("two")} className="">
@@ -155,12 +155,57 @@ const Index = () => {
                         </p>
                     </div>
                 </div>
-                <div className={`${three ? "active" : ""} mb-[32px]`}>
+                <div className={`${three ? "active" : ""} mb-[55px]`}>
                     <div className="flex items-center justify-between">
                         <h4 className=" text-[22px] max-w-[80%] font-[500]">What makes you different from other Web3 content agencies?</h4>
                         <button onClick={() => toggleVisibility("three")} className="">
                             <svg xmlns="http://www.w3.org/2000/svg" className="transition-[.4s]" width="25" height="25" viewBox="0 0 35 35" fill="none">
                                 <path d={`M17.5 29.1667C11.0687 29.1667 5.83329 23.9313 5.83329 17.5001C5.83329 11.0688 11.0687 5.83341 17.5 5.83341C23.9312 5.83341 29.1666 11.0688 29.1666 17.5001C29.1666 23.9313 23.9312 29.1667 17.5 29.1667ZM17.5 2.91675C15.5848 2.91675 13.6885 3.29396 11.9192 4.02684C10.1498 4.75972 8.54217 5.83392 7.18799 7.18811C4.45308 9.92301 2.91663 13.6323 2.91663 17.5001C2.91663 21.3678 4.45308 25.0771 7.18799 27.8121C8.54217 29.1662 10.1498 30.2404 11.9192 30.9733C13.6885 31.7062 15.5848 32.0834 17.5 32.0834C21.3677 32.0834 25.077 30.547 27.8119 27.8121C30.5468 25.0771 32.0833 21.3678 32.0833 17.5001C32.0833 15.585 31.7061 13.6886 30.9732 11.9193C30.2403 10.1499 29.1661 8.54229 27.8119 7.18811C26.4577 5.83392 24.8501 4.75972 23.0808 4.02684C21.3114 3.29396 19.4151 2.91675 17.5 ${three ? "2.91675ZM10.2083 18.9584H24.7916V16.0417H10.2083" : "2.91675ZM18.9583 10.2084H16.0416V16.0417H10.2083V18.9584H16.0416V24.7917H18.9583V18.9584H24.7916V16.0417H18.9583V10.2084Z"}`} fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="overflow-hidden answ">
+                        <p className="text-[18px] pt-[20px] leading-[24px]">
+                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                        </p>
+                    </div>
+                </div>
+                <div className={`${four ? "active" : ""} mb-[55px]`}>
+                    <div className="flex items-center justify-between">
+                        <h4 className=" text-[22px] max-w-[80%] font-[500]">Do you accept crypto payments?</h4>
+                        <button onClick={() => toggleVisibility("four")} className="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="transition-[.4s]" width="25" height="25" viewBox="0 0 35 35" fill="none">
+                                <path d={`M17.5 29.1667C11.0687 29.1667 5.83329 23.9313 5.83329 17.5001C5.83329 11.0688 11.0687 5.83341 17.5 5.83341C23.9312 5.83341 29.1666 11.0688 29.1666 17.5001C29.1666 23.9313 23.9312 29.1667 17.5 29.1667ZM17.5 2.91675C15.5848 2.91675 13.6885 3.29396 11.9192 4.02684C10.1498 4.75972 8.54217 5.83392 7.18799 7.18811C4.45308 9.92301 2.91663 13.6323 2.91663 17.5001C2.91663 21.3678 4.45308 25.0771 7.18799 27.8121C8.54217 29.1662 10.1498 30.2404 11.9192 30.9733C13.6885 31.7062 15.5848 32.0834 17.5 32.0834C21.3677 32.0834 25.077 30.547 27.8119 27.8121C30.5468 25.0771 32.0833 21.3678 32.0833 17.5001C32.0833 15.585 31.7061 13.6886 30.9732 11.9193C30.2403 10.1499 29.1661 8.54229 27.8119 7.18811C26.4577 5.83392 24.8501 4.75972 23.0808 4.02684C21.3114 3.29396 19.4151 2.91675 17.5 ${four ? "2.91675ZM10.2083 18.9584H24.7916V16.0417H10.2083" : "2.91675ZM18.9583 10.2084H16.0416V16.0417H10.2083V18.9584H16.0416V24.7917H18.9583V18.9584H24.7916V16.0417H18.9583V10.2084Z"}`} fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="overflow-hidden answ">
+                        <p className="text-[18px] pt-[20px] leading-[24px]">
+                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                        </p>
+                    </div>
+                </div>
+                <div className={`${five ? "active" : ""} mb-[55px]`}>
+                    <div className="flex items-center justify-between">
+                        <h4 className=" text-[22px] max-w-[80%] font-[500]">How does The Rich impact handlre bigger projects?</h4>
+                        <button onClick={() => toggleVisibility("five")} className="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="transition-[.4s]" width="25" height="25" viewBox="0 0 35 35" fill="none">
+                                <path d={`M17.5 29.1667C11.0687 29.1667 5.83329 23.9313 5.83329 17.5001C5.83329 11.0688 11.0687 5.83341 17.5 5.83341C23.9312 5.83341 29.1666 11.0688 29.1666 17.5001C29.1666 23.9313 23.9312 29.1667 17.5 29.1667ZM17.5 2.91675C15.5848 2.91675 13.6885 3.29396 11.9192 4.02684C10.1498 4.75972 8.54217 5.83392 7.18799 7.18811C4.45308 9.92301 2.91663 13.6323 2.91663 17.5001C2.91663 21.3678 4.45308 25.0771 7.18799 27.8121C8.54217 29.1662 10.1498 30.2404 11.9192 30.9733C13.6885 31.7062 15.5848 32.0834 17.5 32.0834C21.3677 32.0834 25.077 30.547 27.8119 27.8121C30.5468 25.0771 32.0833 21.3678 32.0833 17.5001C32.0833 15.585 31.7061 13.6886 30.9732 11.9193C30.2403 10.1499 29.1661 8.54229 27.8119 7.18811C26.4577 5.83392 24.8501 4.75972 23.0808 4.02684C21.3114 3.29396 19.4151 2.91675 17.5 ${five ? "2.91675ZM10.2083 18.9584H24.7916V16.0417H10.2083" : "2.91675ZM18.9583 10.2084H16.0416V16.0417H10.2083V18.9584H16.0416V24.7917H18.9583V18.9584H24.7916V16.0417H18.9583V10.2084Z"}`} fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="overflow-hidden answ">
+                        <p className="text-[18px] pt-[20px] leading-[24px]">
+                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                        </p>
+                    </div>
+                </div>
+                <div className={`${six ? "active" : ""} mb-[55px]`}>
+                    <div className="flex items-center justify-between">
+                        <h4 className=" text-[22px] max-w-[80%] font-[500]">How can i get started with The Rich Impact?</h4>
+                        <button onClick={() => toggleVisibility("six")} className="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="transition-[.4s]" width="25" height="25" viewBox="0 0 35 35" fill="none">
+                                <path d={`M17.5 29.1667C11.0687 29.1667 5.83329 23.9313 5.83329 17.5001C5.83329 11.0688 11.0687 5.83341 17.5 5.83341C23.9312 5.83341 29.1666 11.0688 29.1666 17.5001C29.1666 23.9313 23.9312 29.1667 17.5 29.1667ZM17.5 2.91675C15.5848 2.91675 13.6885 3.29396 11.9192 4.02684C10.1498 4.75972 8.54217 5.83392 7.18799 7.18811C4.45308 9.92301 2.91663 13.6323 2.91663 17.5001C2.91663 21.3678 4.45308 25.0771 7.18799 27.8121C8.54217 29.1662 10.1498 30.2404 11.9192 30.9733C13.6885 31.7062 15.5848 32.0834 17.5 32.0834C21.3677 32.0834 25.077 30.547 27.8119 27.8121C30.5468 25.0771 32.0833 21.3678 32.0833 17.5001C32.0833 15.585 31.7061 13.6886 30.9732 11.9193C30.2403 10.1499 29.1661 8.54229 27.8119 7.18811C26.4577 5.83392 24.8501 4.75972 23.0808 4.02684C21.3114 3.29396 19.4151 2.91675 17.5 ${six ? "2.91675ZM10.2083 18.9584H24.7916V16.0417H10.2083" : "2.91675ZM18.9583 10.2084H16.0416V16.0417H10.2083V18.9584H16.0416V24.7917H18.9583V18.9584H24.7916V16.0417H18.9583V10.2084Z"}`} fill="white"/>
                             </svg>
                         </button>
                     </div>
