@@ -43,7 +43,7 @@ const Index = () => {
         <section className="bg-[#01020F] pt-[72px] pb-[3rem]">
             <div className="flex w-[90%] justify-between items-center mx-auto">
                 <div className="w-[56%]">
-                    <h1 className="font-[700] font-clashGrotesk leading-[70px] text-white text-[56px] uppercase">
+                    <h1 className="font-[700] wow fadeIn font-clashGrotesk leading-[70px] text-white text-[56px] uppercase">
                         Web3 Content Marketing Agency THAT Gives <span className="text-[#FCA311]">Clarity</span> to Your Complexity
                     </h1>
                     <p className="mt-[16px] text-[#FFFFFF] font-clashGrotesk leading-[26px] text-[18px] font-[400]">
