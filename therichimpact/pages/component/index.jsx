@@ -217,6 +217,19 @@ const Index = () => {
                 </div>
             </div>
         </section>
+        <section className="bg-white pt-[100px]">
+            <h3 className="text-[#01020F] font-clashGrotesk text-[48px] font-[500] text-center mb-[42px]">PARTNERS</h3>
+            <div className="w-[90%] mx-auto flex gap-[64px] overflow-x-auto">
+                <Image src="/images/alien.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/tg.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/pontys.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/hera.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/leaf.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/img.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/brave.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/circle.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+            </div>
+        </section>
     </>
   )
 }
