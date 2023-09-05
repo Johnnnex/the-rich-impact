@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { A11y, Autoplay, Pagination } from "swiper/modules"
-import { Rating } from 'react-simple-star-rating'
 import "swiper/css/autoplay"
 import 'swiper/css/pagination'
 import "swiper/css/bundle"
@@ -256,16 +255,14 @@ const Index = () => {
                         onAutoplayTimeLeft={onAutoplayTimeLeft}
                         spaceBetween={50}
                         slidesPerView={3}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
                         >
                             <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                                 <div className="">
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={0} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={0} readonly={true} iconsCount={1}/>
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
                                 </div>
                                 <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
                                 <div className="flex justify-between">
@@ -279,11 +276,11 @@ const Index = () => {
                             </SwiperSlide>
                             <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                                 <div className="">
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={0} readonly={true} iconsCount={1}/>
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
                                 </div>
                                 <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
                                 <div className="flex justify-between">
@@ -296,11 +293,11 @@ const Index = () => {
                             </SwiperSlide>
                             <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                                 <div className="">
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={0} readonly={true} iconsCount={1}/>
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
                                 </div>
                                 <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
                                 <div className="flex justify-between">
@@ -313,11 +310,11 @@ const Index = () => {
                             </SwiperSlide>
                             <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                                 <div className="">
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={0} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={0} readonly={true} iconsCount={1}/>
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
                                 </div>
                                 <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
                                 <div className="flex justify-between">
@@ -330,11 +327,11 @@ const Index = () => {
                             </SwiperSlide>
                             <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                                 <div className="">
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
-                                    <Rating initialValue={1} readonly={true} iconsCount={1}/>
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
+                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
                                 </div>
                                 <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
                                 <div className="flex justify-between">
@@ -345,12 +342,6 @@ const Index = () => {
                                     </p>
                                 </div>
                             </SwiperSlide>
-                            <div className="autoplay-progress" slot="container-end">
-                                <svg viewBox="0 0 48 48" ref={progressCircle}>
-                                    <circle cx="24" cy="24" r="20"></circle>
-                                </svg>
-                                <span ref={progressContent}></span>
-                            </div>
                     </Swiper>
                 </div>
             </section>
