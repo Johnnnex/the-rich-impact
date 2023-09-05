@@ -265,7 +265,7 @@ const Index = () => {
                                     Content generally focuses on statistic, recent notable achievements & upcoming catalysts.
                                 </p>
                                 <div className="flex justify-between items-center">
-                                    <Image src="/Images/ChadCaff.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <Image src="/Images/ChadCaff.svg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
                                     <p className="font-satoshi w-[80%] text-[16px] font-[900]">
                                         ChadCaff
                                     </p>
@@ -285,7 +285,7 @@ const Index = () => {
                                     Working with them feels like collaborating with friends who genuinely care about our success.
                                 </p>
                                 <div className="flex justify-between items-center">
-                                    <Image src="/Images/Victory.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <Image src="/Images/Victory.svg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
                                     <p className="font-satoshi w-[80%] text-[16px] font-[900]">
                                         Victory
                                     </p>
@@ -303,7 +303,7 @@ const Index = () => {
                                     I was skeptical about their team at first, but they proved me wrong. I was constantly impressed by their ability to transform intricate Web3  concepts into captivating narratives. What sets them apart is their dedication to quality and authenticity.
                                 </p>
                                 <div className="flex justify-between items-center">
-                                    <Image src="/Images/robert.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <Image src="/Images/robert.svg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
                                     <p className="font-satoshi w-[80%] text-[16px] font-[900]">
                                         Sir. Robert
                                     </p>
@@ -321,7 +321,7 @@ const Index = () => {
                                     These guys are really solid & amazing when it comes to their work. They have individually helped me with content, content ideas, graphics, etc, seeing them come together like this is pure excellence. They make my content approachable and exciting. It’s always a pleasure seeing their fresh takes on complex DeFi topics.
                                 </p>
                                 <div className="flex justify-between items-center">
-                                    <Image src="/Images/samuel.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <Image src="/Images/samuel.svg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
                                     <p className="font-satoshi w-[80%] text-[16px] font-[900]">
                                         Samuel Xeus
                                     </p>
