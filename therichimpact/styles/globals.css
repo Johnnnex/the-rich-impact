@@ -9,3 +9,7 @@
     max-height: 0 !important;
     transition: .4s ease !important;
 }
+.bxshadw {
+    box-shadow: 1px 1px 3px #00000090;
+}
+swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main

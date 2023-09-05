@@ -236,12 +236,9 @@ const Index = () => {
                 <Image src="/images/circle.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
             </div>
             <h3 className="text-[#01020F] font-clashGrotesk mt-[91px] text-[48px] font-[500] text-center mb-[42px]">TESTIMONIALS</h3>
-            <section className="bg-[#110c32a7] mt-[7rem] py-[5rem]">
+            <section className="bg-white pb-[92px]">
                 <div className="w-[90%] mx-auto">
-                    <h2 className="font-poppins font-[700] text-[3rem]">What our clients say</h2>
-                    <p className=" font-robotoMono font-thin w-[50%] mt-[1rem] mb-[3rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea error excepturi nostrum? Odio suscipit tempore, et quaerat earum architecto </p>
                     <Swiper
-                        className="h-fit"
                         grabCursor={true}
                         pagination={{
                             dynamicBullets: true,
@@ -249,96 +246,84 @@ const Index = () => {
                         }}
                         modules={[A11y, Autoplay, Pagination]}
                         autoplay={{
-                            delay: 2500,
+                            delay: 3500,
                             disableOnInteraction: false,
                         }}
-                        onAutoplayTimeLeft={onAutoplayTimeLeft}
                         spaceBetween={50}
                         slidesPerView={3}
                         >
-                            <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
-                                <div className="">
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
+                            <SwiperSlide className='bxshadw my-[1rem] px-5 py-7 rounded-[8px]'>
+                                <div className="flex mb-[15px] gap-[5px]">
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
                                 </div>
-                                <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                                <div className="flex justify-between">
-                                    <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
-                                    <p className="w-[80%] font-robotoMono">
-                                        <b className="font-poppins">John Doe</b> <br />
-                                        M.D, Johnex corp.
+                                <p className="mb-[1rem] font-clashGrotesk text-[18px]">
+                                    These guys have good writing skills and media use and have helped me write content for various Defi projects. They always provide sound, creative content using data and media where applicable. <br />
+                                    Content generally focuses on statistic, recent notable achievements & upcoming catalysts.
+                                </p>
+                                <div className="flex justify-between items-center">
+                                    <Image src="/Images/ChadCaff.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <p className="font-satoshi w-[80%] text-[16px] font-[900]">
+                                        ChadCaff
                                     </p>
                                 </div>
 
                             </SwiperSlide>
-                            <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
-                                <div className="">
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
+                            <SwiperSlide className='bxshadw my-[1rem] px-5 py-7 rounded-[8px]'>
+                                <div className="flex mb-[15px] gap-[5px]">
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
                                 </div>
-                                <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                                <div className="flex justify-between">
-                                    <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
-                                    <p className="w-[80%] font-robotoMono">
-                                        <b className="font-poppins">John Doe</b> <br />
-                                        M.D, Johnex corp.
+                                <p className="mb-[1rem] font-clashGrotesk text-[18px]">
+                                    Choosing TheRichImpact was the right call for our brand. Their team’s expertise in crypto and Web3 at large has given us a competitive edge. <br />
+                                    Working with them feels like collaborating with friends who genuinely care about our success.
+                                </p>
+                                <div className="flex justify-between items-center">
+                                    <Image src="/Images/Victory.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <p className="font-satoshi w-[80%] text-[16px] font-[900]">
+                                        Victory
                                     </p>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
-                                <div className="">
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
+                            <SwiperSlide className='bxshadw my-[1rem] px-5 py-7 rounded-[8px]'>
+                                <div className="flex mb-[15px] gap-[5px]">
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
                                 </div>
-                                <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                                <div className="flex justify-between">
-                                    <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
-                                    <p className="w-[80%] font-robotoMono">
-                                        <b className="font-poppins">John Doe</b> <br />
-                                        M.D, Johnex corp.
+                                <p className="mb-[1rem] font-clashGrotesk text-[18px]">
+                                    I was skeptical about their team at first, but they proved me wrong. I was constantly impressed by their ability to transform intricate Web3  concepts into captivating narratives. What sets them apart is their dedication to quality and authenticity.
+                                </p>
+                                <div className="flex justify-between items-center">
+                                    <Image src="/Images/robert.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <p className="font-satoshi w-[80%] text-[16px] font-[900]">
+                                        Sir. Robert
                                     </p>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
-                                <div className="">
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={0} readonly={true} iconsCount={1}/> */}
+                            <SwiperSlide className='bxshadw my-[1rem] px-5 py-7 rounded-[8px]'>
+                                <div className="flex mb-[15px] gap-[5px]">
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
+                                    <Image src="/images/star.svg" alt="rating" height={1} width={20} />
                                 </div>
-                                <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                                <div className="flex justify-between">
-                                    <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
-                                    <p className="w-[80%] font-robotoMono">
-                                        <b className="font-poppins">John Doe</b> <br />
-                                        M.D, Johnex corp.
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
-                                <div className="">
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                    {/* <Rating initialValue={1} readonly={true} iconsCount={1}/> */}
-                                </div>
-                                <p className="mb-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                                <div className="flex justify-between">
-                                    <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
-                                    <p className="w-[80%] font-robotoMono">
-                                        <b className="font-poppins">John Doe</b> <br />
-                                        M.D, Johnex corp.
+                                <p className="mb-[1rem] font-clashGrotesk text-[18px]">
+                                    These guys are really solid & amazing when it comes to their work. They have individually helped me with content, content ideas, graphics, etc, seeing them come together like this is pure excellence. They make my content approachable and exciting. It’s always a pleasure seeing their fresh takes on complex DeFi topics.
+                                </p>
+                                <div className="flex justify-between items-center">
+                                    <Image src="/Images/samuel.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                                    <p className="font-satoshi w-[80%] text-[16px] font-[900]">
+                                        Samuel Xeus
                                     </p>
                                 </div>
                             </SwiperSlide>
