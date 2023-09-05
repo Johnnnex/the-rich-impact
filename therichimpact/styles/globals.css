@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.active .answ {
+    max-height: 5rem !important;
+}
+.answ {
+    max-height: 0 !important;
+    transition: .4s ease !important;
+}
