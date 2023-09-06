@@ -142,7 +142,7 @@ const Index = () => {
                     </div>
                     <div className={`answ overflow-hidden `}>
                         <p className="text-[18px] pt-[20px] leading-[24px]">
-                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                            Our team has about a decade of combined experience in the Web3 industry. We ensure each piece of content undergoes rigorous checks for accuracy, relevance, and originality.
                         </p>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ const Index = () => {
                     </div>
                     <div className="overflow-hidden answ">
                         <p className="text-[18px] pt-[20px] leading-[24px]">
-                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                            TheRichImpact stands out with its commitment to quality over quantity, strong understanding & usage of AI tools to deliver the best work, deep industry knowledge, personalized strategies, and a forward-thinking aapproach. We go beyond simply writing content!
                         </p>
                     </div>
                 </div>
@@ -187,7 +187,7 @@ const Index = () => {
                     </div>
                     <div className="overflow-hidden answ">
                         <p className="text-[18px] pt-[20px] leading-[24px]">
-                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                            Yes, we take crypto payments only!
                         </p>
                     </div>
                 </div>
@@ -202,7 +202,7 @@ const Index = () => {
                     </div>
                     <div className="overflow-hidden answ">
                         <p className="text-[18px] pt-[20px] leading-[24px]">
-                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                            We begin each campaign by understanding your vision and goals. For larger, ongoing projects, we ensure regular updates, swift turnaround, and continous collaboration with our clients to meet their evolving needs.
                         </p>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ const Index = () => {
                     </div>
                     <div className="overflow-hidden answ">
                         <p className="text-[18px] pt-[20px] leading-[24px]">
-                            We specialize in various content types, including articles, white papers, social media content & man agement, technical documentation, SEO, and content strategy.
+                            Getting started is simple. You can reach us via the “Work With Us’ from our website or by email. We’re eager to learn about your project and ready to discuss how we can help supercharge your content.
                         </p>
                     </div>
                 </div>
