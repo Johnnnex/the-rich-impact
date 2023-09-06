@@ -217,7 +217,7 @@ const Index = () => {
                     </div>
                     <div className="overflow-hidden answ">
                         <p className="text-[18px] pt-[20px] leading-[24px]">
-                            Getting started is simple. You can reach us via the “Work With Us’ from our website or by email. We’re eager to learn about your project and ready to discuss how we can help supercharge your content.
+                            Getting started is simple. You can reach us via the “Work With Us" from our website or by email. We’re eager to learn about your project and ready to discuss how we can help supercharge your content.
                         </p>
                     </div>
                 </div>
