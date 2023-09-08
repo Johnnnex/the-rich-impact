@@ -1,8 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Header = () => {
+    const {pathname, asPath} = useRouter();
+	const navLinks = [
+		{ key: 1, title: "OUR EXPERTISE", path: "/#expertise" },
+		{ key: 2, title: "PORTFOLIO", path: "/component/portfolio" },
+		{ key: 2, title: "OUR TEAM", path: "/#team" },
+		{ key: 3, title: "FAQS", path: "/#faqs" },
+	]
+    const links = navLinks.map(({path, key, title}) => (
+		<Link key={key} href={path}>
+            <li className={pathname === path || asPath === path ? " bg-red-500" : ""}>{title}</li>
+            {console.log(asPath, pathname)}
+        </Link>
+	))
   return (
     <header className="py-[13px] bg-[#01020F] ">
         <div className="w-[90%] mx-auto flex items-center justify-between">
@@ -11,18 +25,7 @@ const Header = () => {
             </div>
             <nav className="flex items-center text-white gap-[74px]">
                 <ul className="text-[18px] font-[500] font-clashGrotesk gap-[32px] flex">
-                    <Link href="/#experts">
-                        <li className="">OUR EXPERTISE</li>
-                    </Link>
-                    <Link href="/component/portfolio">
-                        <li className="">PORTFOLIO</li>
-                    </Link>
-                    <Link href="/#team">
-                        <li className="">OUR TEAM</li>
-                    </Link>
-                    <Link href="/#faqs">
-                        <li className="">FAQS</li>
-                    </Link>
+                    {links}
                 </ul>
                 <button className="text-[15px] font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
                     WORK WITH US
