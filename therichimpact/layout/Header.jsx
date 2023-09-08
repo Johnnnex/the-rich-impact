@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -10,10 +11,18 @@ const Header = () => {
             </div>
             <nav className="flex items-center text-white gap-[74px]">
                 <ul className="text-[18px] font-[500] font-clashGrotesk gap-[32px] flex">
-                    <li className="">OUR EXPERTISE</li>
-                    <li className="">PORTFOLIO</li>
-                    <li className="">OUR TEAM</li>
-                    <li className="">FAQS</li>
+                    <Link href="/#experts">
+                        <li className="">OUR EXPERTISE</li>
+                    </Link>
+                    <Link href="/component/portfolio">
+                        <li className="">PORTFOLIO</li>
+                    </Link>
+                    <Link href="/#team">
+                        <li className="">OUR TEAM</li>
+                    </Link>
+                    <Link href="/#faqs">
+                        <li className="">FAQS</li>
+                    </Link>
                 </ul>
                 <button className="text-[15px] font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
                     WORK WITH US

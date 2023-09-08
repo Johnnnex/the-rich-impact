@@ -128,7 +128,7 @@ const Index = () => {
                 </div>
             </div>
         </section> 
-        <section className="bg-[#01020F] text-white py-[114px]">
+        <section id="faqs" className="bg-[#01020F] text-white py-[114px]">
             <h3 className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px]">FAQS</h3>
             <div className="w-[60%] mx-auto font-satoshi">
                 <div className={`${one ? "active" : ""} mb-[55px]`}>
