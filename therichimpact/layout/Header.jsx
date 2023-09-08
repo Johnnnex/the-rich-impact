@@ -13,7 +13,7 @@ const Header = () => {
 	]
     const links = navLinks.map(({path, key, title}) => (
 		<Link key={key} href={path}>
-            <li className={`${pathname === path || asPath === path ? "activeLink" : ""} navLink px-[16px] py-[10px]`}>{title}</li>
+            <li className={`${pathname === path || asPath === path ? "activeLink" : ""} navLink px-[16px] py-[5px]`}>{title}</li>
         </Link>
 	))
   return (
