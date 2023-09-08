@@ -8,6 +8,7 @@
 }
 .active .answ {
     max-height: 10rem !important;
+    transition: .4s !important;
 }
 .answ {
     max-height: 0 !important;
@@ -26,4 +27,7 @@
 }
 .navLink {
     transition: .4s !important;
+}
+.navLink:hover {
+    color: #FCA311;
 }
