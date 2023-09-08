@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*, html, body {
+    scroll-behavior: smooth;
+}
 .active .answ {
     max-height: 10rem !important;
 }
@@ -14,4 +18,12 @@
 }
 .swiper-pagination-bullet-active-main {
     background-color: #01020F !important;
+}
+.activeLink {
+    color: #FCA311 !important;
+    border: 1px solid #FCA311 !important;
+    border-radius: 8px;
+}
+.navLink {
+    transition: .4s !important;
 }

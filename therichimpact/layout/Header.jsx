@@ -13,8 +13,7 @@ const Header = () => {
 	]
     const links = navLinks.map(({path, key, title}) => (
 		<Link key={key} href={path}>
-            <li className={pathname === path || asPath === path ? " bg-red-500" : ""}>{title}</li>
-            {console.log(asPath, pathname)}
+            <li className={`${pathname === path || asPath === path ? "activeLink" : ""} navLink px-[16px] py-[10px]`}>{title}</li>
         </Link>
 	))
   return (
@@ -24,7 +23,7 @@ const Header = () => {
                 <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
             </div>
             <nav className="flex items-center text-white gap-[74px]">
-                <ul className="text-[18px] font-[500] font-clashGrotesk gap-[32px] flex">
+                <ul className="text-[18px] font-[500] font-clashGrotesk gap-[12px] flex">
                     {links}
                 </ul>
                 <button className="text-[15px] font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
