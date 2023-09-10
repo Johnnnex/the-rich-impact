@@ -31,3 +31,27 @@
 .navLink:hover {
     color: #FCA311;
 }
+.btn-ux {
+    position: relative;
+    overflow: hidden;
+}
+.btn-ux:before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #00000045 !important;
+    width: 20%;
+    height: 100%;
+    transform: translateX(-6rem);
+    transition: .6s;
+}
+.btn-ux:hover {
+    outline: 2px solid #FCA311;
+    outline-offset: 4px;
+    transition-delay: .2s;
+    transition-duration: .04s;
+}
+.btn-ux:hover:before {
+    transform: translateX(13rem); 
+}

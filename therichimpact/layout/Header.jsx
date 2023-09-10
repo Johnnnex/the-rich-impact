@@ -26,7 +26,7 @@ const Header = () => {
                 <ul className="text-[18px] font-[500] font-clashGrotesk gap-[12px] flex">
                     {links}
                 </ul>
-                <button className="text-[15px] font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
+                <button className="text-[15px] btn-ux font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
                     WORK WITH US
                 </button>
             </nav>
