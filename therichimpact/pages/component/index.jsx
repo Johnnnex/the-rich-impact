@@ -59,7 +59,7 @@ const Index = () => {
             </div>
         </section>
         <section className="bg-white py-[97px]">
-            <h2 className="font-clashGrotesk text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
+            <h2 id="expertise" className="font-clashGrotesk text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
             <div className="flex w-[90%] justify-between items-center mx-auto">
                 <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
                     <Image alt="content-img" height={1} width={250} className="" src="/images/content.svg" />
@@ -93,34 +93,66 @@ const Index = () => {
                 </div>
             </div>
         </section>
-        <section className="px-4 md:px-0 pt-[113px] pb-[50px]" id="team">
+        <section className="px-4 md:px-0 pt-[113px] pb-[50px]">
             <div className="mx-auto w-[90%]">
-                <h3 className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F]">MEET THE TEAM</h3>
+                <h3 id="team" className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F]">MEET THE TEAM</h3>
                 <div className="flex flex-wrap">
                     <div className="w-[20rem] p-2 wow fadeIn mx-auto mb-7">
-                        <div className="rounded-[1rem] overflow-hidden">
-                            <Image src="/images/temitope.png" alt="team" width={300} height={1} />
+                        <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
+                            <div className="w-full h-full border">
+                                <a href="https://twitter.com/Only1temmy" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/olayinka-hammed-temitope-467b2b195" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                </a>
+                            </div>
+                            <Image src="/images/temitope.png" alt="team" className="img-ux" width={300} height={1} />
                         </div>
                         <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Temitope Olayinka</p>
                         <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">CoFounder & Content Manager</small>
                     </div>
                     <div className="w-[20rem] p-2 wow fadeIn mx-auto mb-7">
-                        <div className="rounded-[1rem] overflow-hidden">
-                            <Image src="/images/richie.png" alt="team" width={300} height={1} />
+                        <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
+                            <div className="w-full h-full border">
+                                <a href="https://twitter.com/iam_Riichard?t=4k3xziEgF_fkqyv9C_1xyg&s=09" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/richard-oluseye-16a023192" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                </a>
+                            </div>
+                            <Image src="/images/richie.png" alt="team" className="img-ux" width={300} height={1} />
                         </div>
                         <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Richard Oluseye</p>
                         <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">CoFounder & Content Manager</small>
                     </div>
                     <div className="w-[20rem] wow p-2 fadeIn mx-auto mb-7">
-                        <div className="rounded-[1rem] overflow-hidden">
-                            <Image src="/images/wale.png" alt="team" width={300} height={1} />
+                        <div className="rounded-[1rem] relative-div w-fit h-fit overflow-hidden">
+                            <div className="w-full h-full border">
+                                <a href="https://twitter.com/RubiksWeb3hub" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/rubiksweb3/" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                </a>
+                            </div>
+                            <Image src="/images/wale.png" alt="team" className="img-ux" width={300} height={1} />
                         </div>
                         <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Olawale Abubakr</p>
                         <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Technical Writer</small>
                     </div>
                     <div className="w-[20rem] wow p-2 fadeIn mx-auto mb-7">
-                        <div className="rounded-[1rem] overflow-hidden">
-                            <Image src="/images/veetor.png" alt="team" width={300} height={1} />
+                        <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
+                            <div className="w-full h-full border">
+                                <a href="https://x.com/veetor4x?s=21" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/precious-ihie-613639246" target="_blank">
+                                    <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                </a>
+                            </div>
+                            <Image src="/images/veetor.png" alt="team" className="img-ux" width={300} height={1} />
                         </div>
                         <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Precious Ihie</p>
                         <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Creative Lead</small>
@@ -128,8 +160,8 @@ const Index = () => {
                 </div>
             </div>
         </section> 
-        <section id="faqs" className="bg-[#01020F] text-white py-[114px]">
-            <h3 className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px]">FAQS</h3>
+        <section className="bg-[#01020F] text-white py-[114px]">
+            <h3 id="faqs" className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px]">FAQS</h3>
             <div className="w-[60%] mx-auto font-satoshi">
                 <div className={`${one ? "active" : ""} mb-[55px]`}>
                     <div className="flex items-center justify-between">

@@ -8,7 +8,7 @@ const Portfolio = () => {
         <HeadComp title="The Rich Impact - Portfolio" />
         <section className="">
           <div className="w-[90%] mx-auto mt-[49px]">
-            <button className="border rounded-[100px] w-[106px] mb-[49px] flex items-center justify-center border-black h-[52px]">
+            <button className="btn-proto-two rounded-[100px] w-[106px] mb-[49px] flex items-center justify-center h-[52px]">
               <Image src="/images/arrow-left.svg" alt="svg-img" width={30} height={1} />
             </button>
             <h2 className="mb-[8px] font-clashGrotesk text-[24px] text-[#2D2B4A] font-[600]">THE CHALLENGE 😦</h2>

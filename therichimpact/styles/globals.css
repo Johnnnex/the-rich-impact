@@ -80,3 +80,24 @@
 .btn-proto-two:hover:before {
     transform: translateX(13rem); 
 }
+.img-ux {
+    transition: .4s;
+}
+.relative-div {
+    position: relative;
+}
+.relative-div:hover .img-ux {
+    filter: brightness(50%) !important;
+}
+.relative-div > div {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    visibility: hidden;
+}
+.relative-div:hover div {
+    visibility: visible;
+}
