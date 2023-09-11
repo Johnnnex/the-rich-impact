@@ -1,12 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 
 const Footer = () => {
+  const [visibility, setVisibility] = useState(null)
+  const scroll = () => {
+    if (window.scrollY > 0) {
+      setVisibility(true)
+    }
+    else {
+      setVisibility(false)
+    }
+  }
+  useEffect(() => {
+    const scrollInt = () => setInterval(scroll, 100)
+    scrollInt()
+    return () => {
+      clearInterval(scrollInt)
+    }
+  }, [])
   return (
     <>
-      <button className="">
-        <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6 15L12 9L18 15M12 15H12.01" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <button className={`fixed transition-[.4s] ${visibility ? "opacity-100" : "opacity-0"} bottom-[10vh] border anim-action border-[#01020F] right-[5px] rounded-[20px] flex items-center justify-center`}>
+        <svg width="2rem" height="4rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 15L12 9L18 15M12 15H12.01" stroke="#01020F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </button>
       <footer className="py-[70px] bg-[#01020F]">

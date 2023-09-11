@@ -101,3 +101,15 @@
 .relative-div:hover div {
     visibility: visible;
 }
+.anim-action {
+    animation: anim infinite 1s;
+    /* transition: all ease .4s; */
+}
+@keyframes anim {
+    50% {
+        transform: translateY(0%);
+    }
+    100%, 0% {
+        transform: translateY(10%);
+    }
+}
