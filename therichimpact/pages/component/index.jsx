@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { A11y, Autoplay, Pagination } from "swiper/modules"
 import "swiper/css/autoplay"
@@ -89,7 +90,9 @@ const Index = () => {
                     <p className="text-[#666481] font-clashGrotesk text-[18px] leading-[26px] font-[400] mt-[8px] mb-[24px]">
                         CryptoStart is a rising start in the crypto space, preparing to launch a ground breaking Defi protcol. The technical aspects are solid and advanced, but CryptoStart’s  small team lacks the content expertise to articulate their project and vision to diverse audience. 
                     </p>
-                    <button className="uppercase text-[18px] font-satoshi font-[700] text-[#01020F99] py-[8px] px-[18px] btn-proto-two rounded-[10px]">Learn more</button>
+                    <Link href="/component/portfolio">
+                        <button className="uppercase text-[18px] font-satoshi font-[700] text-[#01020F99] py-[8px] px-[18px] btn-proto-two rounded-[10px]">Learn more</button>
+                    </Link>
                 </div>
             </div>
         </section>
