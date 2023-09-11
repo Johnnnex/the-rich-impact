@@ -55,3 +55,28 @@
 .btn-ux:hover:before {
     transform: translateX(13rem); 
 }
+.btn-proto-two {
+    outline: 1px solid #01020F99;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .1s;
+}
+.btn-proto-two:before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #00000045 !important;
+    width: 20%;
+    height: 100%;
+    transform: translateX(-6rem);
+    transition: .6s;
+}
+.btn-proto-two:hover {
+    outline-offset: 4px;
+    transition-delay: .2s;
+    transition-duration: .04s;
+}
+.btn-proto-two:hover:before {
+    transform: translateX(13rem); 
+}
