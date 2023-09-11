@@ -12,8 +12,12 @@ const Footer = () => {
           2023 The Rich Impact. All rights reserved
         </p>
         <div className="flex gap-[12px]">
-          <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
-          <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+          <a href="https://twitter.com/Therichimpact?t=osZKyvM28Uiua84bpyF1RA&s=09" target="_blank">
+              <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+          </a>
+          <a href="https://www.linkedin.com/company/therichimpact/" target="_blank">
+              <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+          </a>
         </div>
       </section>
     </footer>
