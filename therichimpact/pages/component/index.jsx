@@ -47,10 +47,10 @@ const Index = () => {
                     <h1 className="font-[700] wow fadeIn font-clashGrotesk leading-[70px] text-white text-[56px] uppercase">
                         Web3 Content Marketing Agency THAT Gives <span className="text-[#FCA311]">Clarity</span> to Your Complexity
                     </h1>
-                    <p className="mt-[16px] text-[#FFFFFF] font-clashGrotesk leading-[26px] text-[18px] font-[400]">
+                    <p className="mt-[16px] text-[#FFFFFF] wow fadeInDown font-clashGrotesk leading-[26px] text-[18px] font-[400]">
                         The Rich Impact is a dedicated team of writers, strategists, and marketers with a decade of combined experience, on a mission to clear a deluge of low-quality, plagiarized, and misinformed content, one expertly crafted content at a time.
                     </p>
-                    <button className="text-[15px] btn-ux text-white font-[600] mt-[32px] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
+                    <button className="text-[15px] btn-ux wow fadeInDown text-white font-[600] mt-[32px] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
                         WORK WITH US
                     </button>
                 </div>
@@ -60,7 +60,7 @@ const Index = () => {
             </div>
         </section>
         <section className="bg-white py-[97px]">
-            <h2 id="expertise" className="font-clashGrotesk text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
+            <h2 id="expertise" className="font-clashGrotesk wow fadeInDown text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
             <div className="flex w-[90%] justify-between items-center mx-auto">
                 <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
                     <Image alt="content-img" height={1} width={250} className="" src="/images/content.svg" />
@@ -90,7 +90,7 @@ const Index = () => {
                     <p className="text-[#666481] font-clashGrotesk text-[18px] leading-[26px] font-[400] mt-[8px] mb-[24px]">
                         CryptoStart is a rising start in the crypto space, preparing to launch a ground breaking Defi protcol. The technical aspects are solid and advanced, but CryptoStart’s  small team lacks the content expertise to articulate their project and vision to diverse audience. 
                     </p>
-                    <Link href="/component/portfolio">
+                    <Link href="/component/portfolio ">
                         <button className="uppercase text-[18px] font-satoshi font-[700] text-[#01020F99] py-[8px] px-[18px] btn-proto-two rounded-[10px]">Learn more</button>
                     </Link>
                 </div>
