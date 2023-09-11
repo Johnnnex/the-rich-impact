@@ -44,7 +44,7 @@ const Index = () => {
         <section className="bg-[#01020F] pt-[72px] pb-[3rem]">
             <div className="flex w-[90%] justify-between items-center mx-auto">
                 <div className="w-[56%]">
-                    <h1 className="font-[700] wow fadeIn font-clashGrotesk leading-[70px] text-white text-[56px] uppercase">
+                    <h1 className="font-[700] wow fadeInDown font-clashGrotesk leading-[70px] text-white text-[56px] uppercase">
                         Web3 Content Marketing Agency THAT Gives <span className="text-[#FCA311]">Clarity</span> to Your Complexity
                     </h1>
                     <p className="mt-[16px] text-[#FFFFFF] wow fadeInDown font-clashGrotesk leading-[26px] text-[18px] font-[400]">
@@ -54,25 +54,25 @@ const Index = () => {
                         WORK WITH US
                     </button>
                 </div>
-                <div className="w-[36%]">
+                <div className="w-[36%] wow fadeInDown">
                     <Image alt="hero-img" height={1} width={600} className="" src="/images/hero-img.svg" />
                 </div>
             </div>
         </section>
         <section className="bg-white py-[97px]">
-            <h2 id="expertise" className="font-clashGrotesk wow fadeInDown text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h2>
+            <h3 id="expertise" className="font-clashGrotesk wow fadeInDown text-[48px] text-[#453F3F] font-[500] text-center mb-[42px]">EXPERTISE</h3>
             <div className="flex w-[90%] justify-between items-center mx-auto">
-                <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
+                <div className="w-[32%] border wow fadeIn border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
                     <Image alt="content-img" height={1} width={250} className="" src="/images/content.svg" />
                     <h3 className="text-[#2D2B4A] font-clashGrotesk font-[600] text-[24px]">Content Creation</h3>
                     <p className="font-clashGrotesk text-[18px] font-[400] text-[#666481] leading-[26px]">We prioritize comprehensive content strategies focused on producing high-quality content, ensuring efficient ddistribution, and maintaining a steady flow of impactful content across socail media and long-form platforms.</p>
                 </div>
-                <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
+                <div className="w-[32%] border wow fadeIn border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
                     <Image alt="soc-med-mgt-img" height={1} width={250} className="" src="/images/soc-med-mgt.svg" />
                     <h3 className="text-[#2D2B4A] font-clashGrotesk font-[600] text-[24px]">Social Media Management</h3>
                     <p className="font-clashGrotesk text-[18px] font-[400] text-[#666481] leading-[26px]">Expertly handle your brand’s social media presence, amplifying your message through strategic posts, timely engagement, and data-driven growth tactics.</p>
                 </div>
-                <div className="w-[32%] border border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
+                <div className="w-[32%] border wow fadeIn border-[#14213D99] h-[382px] rounded-[24px] p-[10px]">
                     <Image alt="bd-dvpt-img" height={1} width={200} className="w-[40%]" src="/images/bd-dvpt.svg" />
                     <h3 className="text-[#2D2B4A] font-clashGrotesk font-[600] text-[24px]">Brand Development & Storytelling</h3>
                     <p className="font-clashGrotesk text-[18px] font-[400] text-[#666481] leading-[26px]">We masterfully weave your brand’s narrative into a compelling story, fostering a solid identity that resonates with your audience. Our strategic approach ensures your brand stands out in the Web3 ecosystem.</p>
@@ -81,24 +81,24 @@ const Index = () => {
         </section>
         <section className="pt-[77px]">
             <div className="w-[90%] mx-auto">
-                <h3 className=" font-clashGrotesk text-[#453F3F] font-[500] text-[48px] items-center flex">
+                <h3 className=" font-clashGrotesk wow fadeInDown text-[#453F3F] font-[500] text-[48px] items-center flex">
                     OUR PORTFOLIO
                     <Image alt="svg-icon" height={1} width={45} className="" src="/images/arrow-up-right.svg" />
                 </h3>
                 <div className="mt-[42px] py-[20px] px-[10px] rounded-[8px] border border-[#14213D99]">
-                    <h4 className="text-[#2D2B4A] font-[600] text-[24px] font-clashGrotesk">CryptoStart</h4>
-                    <p className="text-[#666481] font-clashGrotesk text-[18px] leading-[26px] font-[400] mt-[8px] mb-[24px]">
+                    <h4 className="text-[#2D2B4A] font-[600] text-[24px] font-clashGrotesk wow fadeInDown">CryptoStart</h4>
+                    <p className="text-[#666481] wow fadeIn font-clashGrotesk text-[18px] leading-[26px] font-[400] mt-[8px] mb-[24px]">
                         CryptoStart is a rising start in the crypto space, preparing to launch a ground breaking Defi protcol. The technical aspects are solid and advanced, but CryptoStart’s  small team lacks the content expertise to articulate their project and vision to diverse audience. 
                     </p>
                     <Link href="/component/portfolio ">
-                        <button className="uppercase text-[18px] font-satoshi font-[700] text-[#01020F99] py-[8px] px-[18px] btn-proto-two rounded-[10px]">Learn more</button>
+                        <button className="uppercase wow fadeIn text-[18px] font-satoshi font-[700] text-[#01020F99] py-[8px] px-[18px] btn-proto-two rounded-[10px]">Learn more</button>
                     </Link>
                 </div>
             </div>
         </section>
         <section className="px-4 md:px-0 pt-[113px] pb-[50px]">
             <div className="mx-auto w-[90%]">
-                <h3 id="team" className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F]">MEET THE TEAM</h3>
+                <h3 id="team" className="text-[48px] font-[500] font-clashGrotesk text-[#453F3F] wow fadeInDown">MEET THE TEAM</h3>
                 <div className="flex flex-wrap">
                     <div className="w-[20rem] p-2 wow fadeIn mx-auto mb-7">
                         <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
@@ -164,8 +164,8 @@ const Index = () => {
             </div>
         </section> 
         <section className="bg-[#01020F] text-white py-[114px]">
-            <h3 id="faqs" className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px]">FAQS</h3>
-            <div className="w-[60%] mx-auto font-satoshi">
+            <h3 id="faqs" className=" font-satoshi text-[48px] font-[500] text-white text-center mb-[32px] wow fadeInDown">FAQS</h3>
+            <div className="w-[60%] wow fadeIn mx-auto font-satoshi">
                 <div className={`${one ? "active" : ""} mb-[55px]`}>
                     <div className="flex items-center justify-between">
                         <h4 className=" text-[22px] max-w-[80%] font-[500]">What kind of content do you specialize in?</h4>
@@ -259,20 +259,20 @@ const Index = () => {
             </div>
         </section>
         <section className="bg-white pt-[100px]">
-            <h3 className="text-[#01020F] font-clashGrotesk text-[48px] font-[500] text-center mb-[42px]">PARTNERS</h3>
+            <h3 className="text-[#01020F] font-clashGrotesk text-[48px] font-[500] text-center mb-[42px] wow fadeInDown">PARTNERS</h3>
             <div className="w-[90%] mx-auto flex gap-[64px] pb-[101px] overflow-x-auto">
-                <Image src="/images/alien.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/tg.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/pontys.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/hera.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/leaf.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/img.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/brave.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
-                <Image src="/images/circle.svg" className="w-[90px] mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/alien.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/tg.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/pontys.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/hera.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/leaf.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/img.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/brave.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
+                <Image src="/images/circle.svg" className="w-[90px] wow fadeIn mx-auto h-[100px]" alt="partners" height={1} width={200} />
             </div>
-            <h3 className="text-[#01020F] font-clashGrotesk mt-[91px] text-[48px] font-[500] text-center mb-[42px]">TESTIMONIALS</h3>
+            <h3 className="text-[#01020F] font-clashGrotesk mt-[91px] text-[48px] font-[500] text-center mb-[42px] wow fadeInDown">TESTIMONIALS</h3>
             <section className="bg-white pb-[92px]">
-                <div className="w-[90%] mx-auto">
+                <div className="w-[90%] wow fadeIn mx-auto">
                     <Swiper
                         grabCursor={true}
                         pagination={{

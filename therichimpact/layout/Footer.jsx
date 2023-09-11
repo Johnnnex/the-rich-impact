@@ -11,6 +11,9 @@ const Footer = () => {
       setVisibility(false)
     }
   }
+  const scrollTop = () => {
+    window.scrollTo(0,0)
+  }
   useEffect(() => {
     const scrollInt = () => setInterval(scroll, 100)
     scrollInt()
@@ -20,7 +23,7 @@ const Footer = () => {
   }, [])
   return (
     <>
-      <button className={`fixed transition-[.4s] ${visibility ? "opacity-100" : "opacity-0"} bottom-[10vh] border anim-action border-[#01020F] right-[5px] rounded-[20px] flex items-center justify-center`}>
+      <button onClick={scrollTop} className={`fixed transition-[.4s] ${visibility ? "opacity-100" : "opacity-0"} bottom-[10vh] border anim-action border-[#01020F] right-[5px] rounded-[20px] flex items-center justify-center`}>
         <svg width="2rem" height="4rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 15L12 9L18 15M12 15H12.01" stroke="#01020F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>

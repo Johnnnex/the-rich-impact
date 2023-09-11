@@ -20,7 +20,9 @@ const Header = () => {
     <header className="py-[13px] bg-[#01020F] ">
         <div className="w-[90%] mx-auto flex items-center justify-between">
             <div className="">
-                <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
+                <Link href="/">
+                    <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
+                </Link>
             </div>
             <nav className="flex items-center text-white gap-[74px]">
                 <ul className="text-[18px] font-[500] font-clashGrotesk gap-[12px] flex">
