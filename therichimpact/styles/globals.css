@@ -103,7 +103,6 @@
 }
 .anim-action {
     animation: anim infinite 1s;
-    /* transition: all ease .4s; */
 }
 @keyframes anim {
     50% {
@@ -112,4 +111,9 @@
     100%, 0% {
         transform: translateY(10%);
     }
+}
+.expert-section {
+    background-image: url(/images/expert-section.jpg);
+    background-position: center;
+    background-size: cover;
 }

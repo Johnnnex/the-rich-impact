@@ -7,8 +7,8 @@ const Portfolio = () => {
   return (
     <>
         <HeadComp title="The Rich Impact - Portfolio" />
-        <section className="">
-          <div className="w-[90%] mx-auto mt-[49px]">
+        <section className="expert-section ">
+          <div className="w-[90%] mx-auto pt-[49px]">
             <Link href="/">
               <button className="btn-proto-two rounded-[100px] w-[106px] mb-[49px] flex items-center justify-center h-[52px]">
                 <Image src="/images/arrow-left.svg" alt="svg-img" width={30} height={1} />
@@ -63,7 +63,7 @@ const Portfolio = () => {
               </div>
             </div>
             <h2 className="font-clashGrotesk text-[24px] text-[#2D2B4A] wow fadeInDown font-[600]">THE RESULT</h2>
-            <p className="text-[#666481] font-[400] wow fadeIn font-clashGrotesk text-[18px] mb-[79px]">
+            <p className="text-[#666481] font-[400] wow fadeIn font-clashGrotesk text-[18px] pb-[79px]">
               In this scenario, CryptoStart&apos;s compelling, concise content generates tractions for the project. Their complex protocol becomes a topic of interest, not just for tech-savvy enthusiasts but also for mainstream investors and users. <br />
               User-generated content started flowing in, influencers & brands started pushing for partnerships. The quality and clarity of the content position CryptoStart as a thought leader in the DeFi space, and they started building a community around their brand.
             </p>
