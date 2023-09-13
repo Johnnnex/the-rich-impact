@@ -4,13 +4,13 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Header = () => {
-    const {pathname, asPath} = useRouter()
+    const {pathname, asPath, events} = useRouter()
     const [navState, toggleNavState] = useState(false)
 	const navLinks = [
 		{ key: 1, title: "OUR EXPERTISE", path: "/#expertise" },
 		{ key: 2, title: "PORTFOLIO", path: "/component/portfolio" },
-		{ key: 2, title: "OUR TEAM", path: "/#team" },
-		{ key: 3, title: "FAQS", path: "/#faqs" },
+		{ key: 3, title: "OUR TEAM", path: "/#team" },
+		{ key: 4, title: "FAQS", path: "/#faqs" },
 	]
     const links = navLinks.map(({path, key, title}) => (
 		<Link key={key} href={path}>
@@ -20,6 +20,20 @@ const Header = () => {
     const toggleNav = () => {
         toggleNavState(!navState)
     }
+    useEffect(() => {
+        const onHashChangeStart = (url) => {
+            console.log(`Path changing to ${url}`)
+            toggleNavState(false)
+        };
+
+        events.on("hashChangeStart", onHashChangeStart)
+        events.on("routeChangeStart", onHashChangeStart)
+
+        return () => {
+            events.off("hashChangeStart", onHashChangeStart)
+            events.on("routeChangeStart", onHashChangeStart)
+        };
+    }, [events]);
   return (
     <header className="py-[13px] fixed z-[4] md:relative w-full bg-[#01020F] ">
         <div className="w-[90%] mx-auto flex items-center justify-between">
