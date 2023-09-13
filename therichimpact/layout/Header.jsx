@@ -18,17 +18,17 @@ const Header = () => {
         </Link>
 	))
     const toggleNav = () => {
-        toggleNavState(true)
+        toggleNavState(!navState)
     }
   return (
     <header className="py-[13px] fixed z-[4] md:relative bg-transparent w-full md:bg-[#01020F] ">
         <div className="w-[90%] mx-auto flex items-center justify-between">
-            <div className="">
+            <div className="z-[2]">
                 <Link href="/">
                     <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
                 </Link>
             </div>
-            <nav className={`bg-black ${navState ? "translate-y-0" : "translate-y-[-100%] md:translate-y-0"} md:bg-transparent fixed transition-[.4s] w-full left-0 md:w-fit pt-[20vh] md:pt-0 top-0 h-full md:h-fit z-[1] md:relative `}>
+            <nav className={`bg-[#01020F] ${navState ? "translate-y-0" : "translate-y-[-100%] md:translate-y-0"} md:bg-transparent fixed transition-[.4s] w-full left-0 md:w-fit pt-[20vh] md:pt-0 top-0 h-full md:h-fit md:relative `}>
                 <div className="flex flex-col md:flex-row items-center text-center text-white gap-[8vh] md:gap-[30px]">
                     <ul className="text-[18px] font-[500] font-clashGrotesk md:gap-[2px] gap-[4vh] flex-col md:flex-row flex">
                         {links}
@@ -38,11 +38,14 @@ const Header = () => {
                     </button>
                 </div>
             </nav>
-            <button type='button' onClick={toggleNav} className=" md:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" className='' height="32" viewBox="0 0 32 1" fill="none">
+            <button type='button' onClick={toggleNav} className="z-[2] md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "hidden" : ""}`} height="32" viewBox="0 0 32 1" fill="none">
                     <path d="M5.33333 10.6667H26.6667M5.33333" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" className='' height="32" viewBox="0 20 32 32" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "rotate-[45deg] translate-x-[10%] translate-y-[13%]" : "hidden"}`} height="32" viewBox="0 10 32 2" fill="none">
+                    <path d="M5.333333 21.3334H18.6667" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "rotate-[-45deg] translate-y-[-50%] translate-x-[20%]" : ""}`} height="32" viewBox="0 20 32 32" fill="none">
                     <path d="M5.333333 21.3334H18.6667" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </button>
