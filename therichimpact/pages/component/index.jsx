@@ -42,7 +42,7 @@ const Index = () => {
     <>
         <HeadComp title="The Rich Impact - Home" />
         <main className="bg-white">
-            <section className="bg-[#01020F] pt-[72px] pb-[3rem]">
+            <section className="bg-[#01020F] pt-[100px] md:pt-[72px] pb-[3rem]">
                 <div className="flex flex-col md:flex-row md:w-[90%] w-[95%] justify-between md:items-center mx-auto">
                     <div className="md:w-[56%]">
                         <h1 className="font-[700] wow fadeInDown font-clashGrotesk leading-[50px] md:leading-[70px] text-white text-[32px] md:text-[56px] uppercase">
