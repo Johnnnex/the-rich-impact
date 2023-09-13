@@ -18,7 +18,7 @@ const Header = () => {
 	))
   return (
     <header className="py-[13px] bg-[#01020F] ">
-        <div className="w-[90%] mx-auto flex items-center justify-between">
+        {/* <div className="w-[90%] mx-auto flex items-center justify-between">
             <div className="">
                 <Link href="/">
                     <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
@@ -32,7 +32,7 @@ const Header = () => {
                     WORK WITH US
                 </button>
             </nav>
-        </div>
+        </div> */}
     </header>
   )
 }

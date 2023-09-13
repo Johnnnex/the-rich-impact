@@ -28,12 +28,12 @@ const Footer = () => {
           <path d="M6 15L12 9L18 15M12 15H12.01" stroke="#01020F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </button>
-      <footer className="py-[70px] bg-[#01020F]">
-        <section className="w-[85%] flex justify-between items-center mx-auto">
+      <footer className="md:py-[70px] py-[40px] bg-[#01020F]">
+        <section className="md:w-[85%] gap-[14px] md:gap-0 w-[95%] flex flex-col md:flex-row justify-between md:items-center mx-auto">
           <div className="">
             <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
           </div>
-          <p className="text-white font-clashGrotesk text-[18px] font-[500]">
+          <p className="text-white font-clashGrotesk text-[14px] md:text-[18px] font-[500]">
             2023 The Rich Impact. All rights reserved
           </p>
           <div className="flex gap-[12px]">
