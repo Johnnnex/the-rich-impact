@@ -8,7 +8,7 @@ const Portfolio = () => {
     <>
         <HeadComp title="The Rich Impact - Portfolio" />
         <section className="expert-section ">
-          <div className="w-[90%] mx-auto pt-[49px]">
+          <div className="md:w-[90%] w-[95%] mx-auto pt-[100px] md:pt-[49px]">
             <Link href="/">
               <button className="btn-proto-two rounded-[100px] w-[106px] mb-[49px] flex items-center justify-center h-[52px]">
                 <Image src="/images/arrow-left.svg" alt="svg-img" width={30} height={1} />
@@ -19,14 +19,14 @@ const Portfolio = () => {
               CryptoStart is a rising start in the crypto space, preparing to launch a ground breaking Defi protcol. The technical aspects are solid and advanced, but CryptoStart’s  small team lacks the content expertise to articulate their project and vision to diverse audience.  They need high-quality, relatble, and impactful content that can bridge the gap between complex tech jargon and the averge investor or user in the crypto space.
             </p>
             <h2 className="mb-[42px] font-clashGrotesk text-[24px] text-[#2D2B4A] wow fadeInDown font-[600]">THE RICH IMPACT’S APPROACH 😇</h2>
-            <div className="flex gap-[80px] mb-[40px]">
-              <div className="p-[10px] w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
+            <div className="flex flex-col md:flex-row gap-[40px] md:gap-[80px] mb-[40px]">
+              <div className="p-[10px] md:w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
                 <h3 className=" font-clashGrotesk text-[24px] font-[500] text-[#14213D]">Research and Understanding:</h3>
                 <p className="text-[18px] font-clashGrotesk font-[400] leading-[28px] text-[#666481]">
                   We started with a comprehensive analysis of CryptoStart&apos;s project, spending hours with their whitepaper, technical drafts, and project roadmap. We engaged in multiple brainstorming sessions with CryptoStart&apos;s team to understand their mission, vision, and the problem their product aims to solve in the DeFi space.
                 </p>
               </div>
-              <div className="p-[10px] w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
+              <div className="p-[10px] md:w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
                 <h3 className=" font-clashGrotesk text-[24px] font-[500] text-[#14213D]">Content Strategy Planning:</h3>
                 <p className="text-[18px] font-clashGrotesk font-[400] leading-[28px] text-[#666481]">
                   Based on our findings, we develop a customized content strategy tailored to CryptoStart&apos;s goals and target audience. This involves identifying the key messages, the best content platforms, and a distribution schedule for optimum impact.
@@ -34,28 +34,28 @@ const Portfolio = () => {
               </div>
             </div>
             <h2 className="mb-[24px] font-clashGrotesk text-[24px] text-[#2D2B4A] wow fadeInDown font-[600]">SOLUTION</h2>
-            <div className="flex gap-[80px] mb-[24px]">
-              <div className="p-[10px] w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
+            <div className="flex flex-col md:flex-row gap-[40px] md:gap-[80px] mb-[24px]">
+              <div className="p-[10px] md:w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
                 <h3 className=" font-clashGrotesk text-[24px] font-[500] text-[#14213D]">Content Creation:</h3>
                 <p className="text-[18px] font-clashGrotesk font-[400] leading-[28px] text-[#666481]">
                   Articles: We designed a series of blog articles covering various aspects of the project. These articles delve into topics loke the vision behind the projet, technical elements explained in layperson&apos;s terms, and the potential impact on the DeFi industry.
                 </p>
               </div>
-              <div className="p-[10px] w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
+              <div className="p-[10px] md:w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
                 <h3 className=" font-clashGrotesk text-[24px] font-[500] text-[#14213D]">Social Media Content :</h3>
                 <p className="text-[18px] font-clashGrotesk font-[400] leading-[28px] text-[#666481]">
                   We created engaging posts and snippets from the whitepaper and blog articles for CryptoStart&apos;s social media. This multi-platform approach targets different audience segments, from tech-savy blockchain enthusiasts to curious newbies.
                 </p>
               </div>
             </div>
-            <div className="flex gap-[80px] mb-[40px]">
-              <div className="p-[10px] w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
+            <div className="flex flex-col md:flex-row gap-[40px] md:gap-[80px] mb-[40px]">
+              <div className="p-[10px] md:w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
                 <h3 className=" font-clashGrotesk text-[24px] font-[500] text-[#14213D]">Technical Documentation:</h3>
                 <p className="text-[18px] font-clashGrotesk font-[400] leading-[28px] text-[#666481]">
                   Our team drats user-friendly guides and FAQ sections, enabling users and developers to interact with CryptoStart&apos;s protocol effortlessly.
                 </p>
               </div>
-              <div className="p-[10px] w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
+              <div className="p-[10px] md:w-[50%] rounded-[8px] wow fadeIn border border-[#666481]">
                 <h3 className=" font-clashGrotesk text-[24px] font-[500] text-[#14213D]">Content Distribution :</h3>
                 <p className="text-[18px] font-clashGrotesk font-[400] leading-[28px] text-[#666481]">
                   We ensured the content reached the right platforms at the right time, emphasizing popular media platforms within the crypto and blockchain communities.

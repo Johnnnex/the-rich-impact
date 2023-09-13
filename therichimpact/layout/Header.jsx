@@ -20,9 +20,6 @@ const Header = () => {
     const toggleNav = () => {
         toggleNavState(!navState)
     }
-    useEffect(() => {
-        
-    }, [])
   return (
     <header className="py-[13px] fixed z-[4] md:relative w-full bg-[#01020F] ">
         <div className="w-[90%] mx-auto flex items-center justify-between">

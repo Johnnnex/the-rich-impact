@@ -29,11 +29,11 @@ const Footer = () => {
         </svg>
       </button>
       <footer className="md:py-[70px] py-[40px] bg-[#01020F]">
-        <section className="md:w-[85%] gap-[14px] md:gap-0 w-[95%] flex flex-col md:flex-row justify-between md:items-center mx-auto">
+        <section className="md:w-[85%] gap-[14px] md:gap-0 w-[90%] flex flex-col md:flex-row justify-between md:items-center mx-auto">
           <div className="">
             <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
           </div>
-          <p className="text-white font-clashGrotesk text-[14px] md:text-[18px] font-[500]">
+          <p className="text-white font-clashGrotesk text-[14px] w-[80%] md:w-fit md:text-[18px] font-[500]">
             2023 The Rich Impact. All rights reserved
           </p>
           <div className="flex gap-[12px]">
