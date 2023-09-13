@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -20,8 +20,11 @@ const Header = () => {
     const toggleNav = () => {
         toggleNavState(!navState)
     }
+    useEffect(() => {
+        
+    }, [])
   return (
-    <header className="py-[13px] fixed z-[4] md:relative bg-transparent w-full md:bg-[#01020F] ">
+    <header className="py-[13px] fixed z-[4] md:relative w-full bg-[#01020F] ">
         <div className="w-[90%] mx-auto flex items-center justify-between">
             <div className="z-[2]">
                 <Link href="/">
