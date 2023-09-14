@@ -31,7 +31,7 @@ const Header = () => {
 
         return () => {
             events.off("hashChangeStart", onHashChangeStart)
-            events.on("routeChangeStart", onHashChangeStart)
+            events.off("routeChangeStart", onHashChangeStart)
         };
     }, [events]);
   return (
