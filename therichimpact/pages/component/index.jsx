@@ -104,12 +104,20 @@ const Index = () => {
                         <div className="w-[18rem] p-2 wow fadeIn mx-auto mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
                                 <div className="w-full h-full border">
-                                    <a href="https://twitter.com/Only1temmy" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/olayinka-hammed-temitope-467b2b195" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
-                                    </a>
+                                    <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
+                                        <p className="">🤯</p>
+                                        <p className="text-[14px] font-clashGrotesk text-white">
+                                            Temmy is a seasoned Web3 content marketer and project advisor. With passion and extensive experience, he crafts captivating narratives that drive engagement. Trust Temmy to lead your project to success in the ever-changing digital landscape.
+                                        </p>
+                                        <div className="flex gap-[8px] mt-[8px]">
+                                            <a href="https://twitter.com/Only1temmy" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/olayinka-hammed-temitope-467b2b195" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <Image src="/images/temitope.png" alt="team" className="img-ux" width={300} height={1} />
                             </div>
@@ -119,12 +127,20 @@ const Index = () => {
                         <div className="w-[18rem] p-2 wow fadeIn mx-auto mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
                                 <div className="w-full h-full border">
-                                    <a href="https://twitter.com/iam_Riichard?t=4k3xziEgF_fkqyv9C_1xyg&s=09" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/richard-oluseye-16a023192" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
-                                    </a>
+                                    <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
+                                        <p className="">🤯</p>
+                                        <p className="text-[14px] font-clashGrotesk text-white">
+                                            Richard is a mobile phone technician turned Web3 content strategist with a proven track record of success working with several clients. His natural curiosity led him to experiment with various content styles, helping him discover what truly resonates with an audience.
+                                        </p>
+                                        <div className="flex gap-[8px] mt-[8px]">
+                                            <a href="https://twitter.com/iam_Riichard?t=4k3xziEgF_fkqyv9C_1xyg&s=09" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/richard-oluseye-16a023192" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <Image src="/images/richie.png" alt="team" className="img-ux" width={300} height={1} />
                             </div>
@@ -134,12 +150,20 @@ const Index = () => {
                         <div className="w-[18rem] wow p-2 fadeIn mx-auto mb-7">
                             <div className="rounded-[1rem] relative-div w-fit h-fit overflow-hidden">
                                 <div className="w-full h-full border">
-                                    <a href="https://twitter.com/RubiksWeb3hub" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/rubiksweb3/" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
-                                    </a>
+                                    <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
+                                        <p className="">🤯</p>
+                                        <p className="text-[14px] font-clashGrotesk text-white">
+                                            Streaming from the magnificent geography of tokens, Rubiks is a seasoned token economist with extensive expertise in developing economic models for ensuring the sustainable existence of tokens through effective monetary policy operations.
+                                        </p>
+                                        <div className="flex gap-[8px] mt-[8px]">
+                                            <a href="https://twitter.com/RubiksWeb3hub" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/rubiksweb3/" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <Image src="/images/wale.png" alt="team" className="img-ux" width={300} height={1} />
                             </div>
@@ -149,12 +173,21 @@ const Index = () => {
                         <div className="w-[18rem] wow p-2 fadeIn mx-auto mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
                                 <div className="w-full h-full border">
-                                    <a href="https://x.com/veetor4x?s=21" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/precious-ihie-613639246" target="_blank">
-                                        <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
-                                    </a>
+                                    
+                                    <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
+                                        <p className="">🤯</p>
+                                        <p className="text-[14px] font-clashGrotesk text-white">
+                                            Precious also known as veetor, is a multidisciplinary web3 visual designer with a background in physics education. He holds a graphic design, videography, and amination certificate, demonstrating his profieciency in these areas. Precious has executed several projects in the web2 and web3 spaces, showcasing his versatility and adaptability.
+                                        </p>
+                                        <div className="flex gap-[8px] mt-[8px]">
+                                            <a href="https://x.com/veetor4x?s=21" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} className="" src="/images/Twitter.svg" />
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/precious-ihie-613639246" target="_blank">
+                                                <Image alt="social-img" height={1} width={30} src="/images/lnkdn.svg" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <Image src="/images/veetor.png" alt="team" className="img-ux" width={300} height={1} />
                             </div>
