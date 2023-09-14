@@ -99,7 +99,7 @@ const Index = () => {
             </section>
             <section className="md:px-0 pt-[113px] pb-[50px]">
                 <div className="mx-auto w-[95%] md:w-[90%]">
-                    <h3 id="team" className="md:text-[48px] text-[24px] font-[500] font-clashGrotesk text-[#453F3F] wow fadeInDown">MEET THE TEAM</h3>
+                    <h3 id="team" className="md:text-[48px] text-[24px] font-[500] font-clashGrotesk text-[#453F3F] wow fadeInDown">MEET OUR CREATIVES</h3>
                     <div className="flex flex-wrap">
                         <div className="w-[18rem] p-2 wow fadeIn mx-auto mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
@@ -114,7 +114,7 @@ const Index = () => {
                                 <Image src="/images/temitope.png" alt="team" className="img-ux" width={300} height={1} />
                             </div>
                             <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Temitope Olayinka</p>
-                            <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">CoFounder & Content Manager</small>
+                            <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Founder</small>
                         </div>
                         <div className="w-[18rem] p-2 wow fadeIn mx-auto mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
