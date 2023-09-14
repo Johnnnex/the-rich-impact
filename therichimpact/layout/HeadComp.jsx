@@ -5,7 +5,7 @@ const HeadComp = ({title}) => {
   return (
     <Head>
         <title>{title}</title>
-        {/* <meta name="description" content=" Decentralized Perpetual Protocol Built on Base" /> */}
+        <meta name="description" content="Web3 Content Marketing Agency scaling your brand x10 faster" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="therichimpact, richimpact, content, content writing, the rich impact, web3 writing, web3 services" />
         <meta name="twitter:card" content="summary" />
