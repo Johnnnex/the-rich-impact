@@ -305,7 +305,7 @@ const Index = () => {
                     <Image src="/images/circle.svg" className="md:w-[90px] w-[60px] wow fadeIn mx-auto h-[50px] md:h-[100px]" alt="partners" height={1} width={200} />
                 </div>
             </section>
-            <h3 className="text-[#01020F] font-clashGrotesk mt-[50px] md:mt-[91px] text-[24px] md:text-[48px] font-[500] text-center text-[24px] md:mb-[42px] mb-[32px] wow fadeInDown">TESTIMONIALS</h3>
+            <h3 className="text-[#01020F] font-clashGrotesk mt-[50px] md:mt-[91px] md:text-[48px] font-[500] text-center text-[24px] md:mb-[42px] mb-[32px] wow fadeInDown">TESTIMONIALS</h3>
             <section className="bg-white hidden md:block pb-[92px]">
                 <div className="w-[90%] wow fadeIn mx-auto">
                     <Swiper
