@@ -37,7 +37,7 @@ const Patner = () => {
         }
         if (user.message == null || user.message == "") {
             setMessageState(true)
-            setTimeout(() => setMessageState(false), 5000)
+            setTimeout(() => setMessageState(false), 1000)
             setLoadState(false)
             return
         }
@@ -45,7 +45,7 @@ const Patner = () => {
         emailjs.sendForm("service_ds3myg1", "template_yuylfoj", form.current, publicKey)
         .then((result) => {
             setFormState(true)
-            setTimeout(() => setFormState(false), 1000)
+            setTimeout(() => setFormState(false), 8000)
             setLoadState(false)
         }, (error) => {
             toast.warn('Network connection error, try again', {
