@@ -76,7 +76,7 @@ const Patner = () => {
                         {mailState && <p className="text-red-500 font-satoshi">Mail or Telegram ID cannot be empty!</p>}
                     </div>
                     <div className="mb-[40px]">
-                        <textarea name="message" value={user.message} onChange={handleChange} className="w-full hover:bg-[#ffffff4c] transition-[.6s] p-[15px] outline-none focus:bg-[#ffffff4c] font-satoshi text-white font-[400] text-[18px] bg-[#FFFFFF66]" id=""></textarea>
+                        <textarea name="message" placeholder="What can The Rich Impact help you accomplish" value={user.message} onChange={handleChange} className="w-full hover:bg-[#ffffff4c] transition-[.6s] p-[15px] outline-none focus:bg-[#ffffff4c] font-satoshi text-white font-[400] text-[18px] bg-[#FFFFFF66]" id=""></textarea>
                         {messageState && <p className="text-red-500 font-satoshi">Message cannot be empty!</p>}
                     </div>
                     <div className="">
