@@ -26,28 +26,42 @@ const Patner = () => {
         if (user.user_name == null || user.user_name == "") {
             setNameState(true)
             setTimeout(() => setNameState(false), 1000)
+            setLoadState(false)
             return
         }
         if (user.user_email == null || user.user_email == "") {
             setMailState(true)
             setTimeout(() => setMailState(false), 1000)
+            setLoadState(false)
             return
         }
         if (user.message == null || user.message == "") {
             setMessageState(true)
-            setTimeout(() => setMessageState(false), 1000)
+            setTimeout(() => setMessageState(false), 5000)
+            setLoadState(false)
             return
         }
-        // const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY
-        // emailjs.sendForm("service_ds3myg1", "template_yuylfoj", form.current, publicKey)
-        // .then((result) => {
-        //     console.log(result.text)
-        // }, (error) => {
-        //     console.log(error.text)
-        // })
+        const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY
+        emailjs.sendForm("service_ds3myg1", "template_yuylfoj", form.current, publicKey)
+        .then((result) => {
+            setFormState(true)
+            setTimeout(() => setFormState(false), 1000)
+            setLoadState(false)
+        }, (error) => {
+            toast.warn('Network connection error, try again', {
+                position: "top-right",
+                autoClose: 1000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+        })
     }
   return (
-    <>
+      <>
         <HeadComp title="The Rich Impact - Work With Us" />
         <main className="bg-[#01020F] pt-[100px] md:pt-[72px] pb-[30px]">
             <form ref={form} onSubmit={sendEmail} className="flex flex-col-reverse md:flex-row justify-between items-center w-[80%] md:w-[80%] mx-auto">
@@ -66,6 +80,7 @@ const Patner = () => {
                         {messageState && <p className="text-red-500 font-satoshi">Message cannot be empty!</p>}
                     </div>
                     <div className="">
+                        {formState && <p className="text-[green] font-[700] text-[18px] font-satoshi">Mail Sent!, await The Rich Impact&apos;s response</p>}
                         <button type='submit' className="w-full py-[16px] text-center btn-ux-b text-white font-satoshi bg-[#FCA311] font-[700] text-[18px] rounded-[16px]">{loadState ? (
                             <div className="w-fit mx-auto">
                                 <Oval
