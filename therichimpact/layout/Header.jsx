@@ -47,9 +47,11 @@ const Header = () => {
                     <ul className="text-[18px] font-[500] font-clashGrotesk md:gap-[2px] gap-[4vh] flex-col md:flex-row flex">
                         {links}
                     </ul>
-                    <button className="text-[15px] btn-ux font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
-                        WORK WITH US
-                    </button>
+                    <Link href="/component/patner">
+                        <button className="text-[15px] btn-ux font-[600] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
+                            WORK WITH US
+                        </button>
+                    </Link>
                 </div>
             </nav>
             <button type='button' onClick={toggleNav} className="z-[2] md:hidden">

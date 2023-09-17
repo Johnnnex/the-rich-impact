@@ -51,9 +51,11 @@ const Index = () => {
                         <p className="mt-[16px] text-[#FFFFFF] wow fadeInDown font-clashGrotesk leading-[26px] text-[18px] font-[400]">
                             The Rich Impact is a dedicated team of writers, strategists, and marketers with a decade of combined experience, on a mission to clear a deluge of low-quality, plagiarized, and misinformed content, one expertly crafted content at a time.
                         </p>
-                        <button className="text-[15px] btn-ux wow fadeInDown text-white font-[600] mt-[32px] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
-                            WORK WITH US
-                        </button>
+                        <Link href="/component/patner">
+                            <button className="text-[15px] btn-ux wow fadeInDown text-white font-[600] mt-[32px] font-satoshi w-[200px] rounded-[8px] py-[10px] bg-[#FCA311]">
+                                WORK WITH US
+                            </button>
+                        </Link>
                     </div>
                     <div className="md:w-[36%] wow fadeInDown">
                         <Image alt="hero-img" height={1} width={600} className="" src="/images/hero-img.svg" />
