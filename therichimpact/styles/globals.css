@@ -31,11 +31,11 @@
 .navLink:hover {
     color: #FCA311;
 }
-.btn-ux {
+.btn-ux, .btn-ux-b {
     position: relative;
     overflow: hidden;
 }
-.btn-ux:before {
+.btn-ux:before, .btn-ux-b:before {
     content: "";
     left: 0;
     top: 0;
@@ -46,11 +46,14 @@
     transform: translateX(-6rem);
     transition: .6s;
 }
-.btn-ux:hover {
+.btn-ux:hover, .btn-ux-b:hover {
     outline: 2px solid #FCA311;
     outline-offset: 4px;
     transition-delay: .2s;
     transition-duration: .04s;
+}
+.btn-ux-b:hover:before {
+    transform: translateX(33rem);
 }
 .btn-ux:hover:before {
     transform: translateX(13rem); 
