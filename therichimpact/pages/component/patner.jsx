@@ -47,6 +47,7 @@ const Patner = () => {
             setFormState(true)
             setTimeout(() => setFormState(false), 8000)
             setLoadState(false)
+            window.location.reload()
         }, (error) => {
             toast.warn('Network connection error, try again', {
                 position: "top-right",
