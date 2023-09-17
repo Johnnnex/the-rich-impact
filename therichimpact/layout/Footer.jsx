@@ -34,7 +34,7 @@ const Footer = () => {
             <Image alt="logo-img" height={1} width={100} className="" src="/images/site-logo.svg" />
           </div>
           <p className="text-white font-clashGrotesk text-[14px] w-[80%] md:w-fit md:text-[18px] font-[500]">
-            2023 The Rich Impact. All rights reserved
+            &copy; 2023 The Rich Impact. All rights reserved
           </p>
           <div className="flex gap-[12px]">
             <a href="https://twitter.com/Therichimpact?t=osZKyvM28Uiua84bpyF1RA&s=09" target="_blank">
