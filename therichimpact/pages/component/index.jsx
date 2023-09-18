@@ -102,8 +102,8 @@ const Index = () => {
             <section className="md:px-0 pt-[113px] pb-[50px]">
                 <div className="mx-auto w-[95%] md:w-[90%]">
                     <h3 id="team" className="md:text-[48px] text-[24px] font-[500] font-clashGrotesk text-[#453F3F] wow fadeInDown">MEET OUR CREATIVES</h3>
-                    <div className="flex flex-wrap">
-                        <div className="w-[18rem] p-2 wow fadeIn mx-auto mb-7">
+                    <div className="flex md:w-[70%] mx-auto items-center justify-between flex-col md:flex-row">
+                        <div className="w-fit p-2 wow fadeIn mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
                                 <div className="w-full h-full border">
                                     <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
@@ -126,7 +126,7 @@ const Index = () => {
                             <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Temitope Olayinka</p>
                             <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Founder</small>
                         </div>
-                        <div className="w-[18rem] p-2 wow fadeIn mx-auto mb-7">
+                        <div className="w-fit p-2 wow fadeIn mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
                                 <div className="w-full h-full border">
                                     <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
@@ -149,7 +149,9 @@ const Index = () => {
                             <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Richard Oluseye</p>
                             <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">CoFounder & Content Manager</small>
                         </div>
-                        <div className="w-[18rem] wow p-2 fadeIn mx-auto mb-7">
+                    </div>
+                    <div className="flex md:w-[70%] mx-auto items-center justify-between flex-col md:flex-row">
+                        <div className="w-fit wow p-2 fadeIn mb-7">
                             <div className="rounded-[1rem] relative-div w-fit h-fit overflow-hidden">
                                 <div className="w-full h-full border">
                                     <div className="bg-[#01020Faa] rounded-[16px] w-[90%] p-[15px] mx-auto">
@@ -172,7 +174,7 @@ const Index = () => {
                             <p className=" font-clashGrotesk text-black font-[900] mt-[12px] text-[22px]">Olawale Abubakr</p>
                             <small className="font-clashGrotesk text-[#666481] text-[18px] font-[500]">Technical Writer</small>
                         </div>
-                        <div className="w-[18rem] wow p-2 fadeIn mx-auto mb-7">
+                        <div className="w-fit wow p-2 fadeIn mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
                                 <div className="w-full h-full border">
                                     
