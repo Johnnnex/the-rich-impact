@@ -101,7 +101,7 @@ const Index = () => {
             </section>
             <section className="md:px-0 pt-[113px] pb-[50px]">
                 <div className="mx-auto w-[95%] md:w-[90%]">
-                    <h3 id="team" className="md:text-[48px] text-[24px] font-[500] font-clashGrotesk text-[#453F3F] wow fadeInDown">MEET OUR CREATIVES</h3>
+                    <h3 id="team" className="md:text-[48px] text-[24px] font-[500] font-clashGrotesk text-center text-[#453F3F] wow fadeInDown">MEET OUR CREATIVES</h3>
                     <div className="flex md:w-[70%] mx-auto items-center justify-between flex-col md:flex-row">
                         <div className="w-fit p-2 wow fadeIn mb-7">
                             <div className="rounded-[1rem] relative-div overflow-hidden w-fit h-fit">
