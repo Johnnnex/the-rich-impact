@@ -117,6 +117,8 @@
 }
 .expert-section {
     background-image: url(/images/expert-section.jpg);
+    background-color: #ffffff7e;
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
 }
