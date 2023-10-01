@@ -22,7 +22,6 @@ const Header = () => {
     }
     useEffect(() => {
         const onHashChangeStart = (url) => {
-            console.log(`Path changing to ${url}`)
             toggleNavState(false)
         };
 
